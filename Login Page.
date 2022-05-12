@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Nunito:600,700,900" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+         <div class="title">
+           <img src="https://99designs-acquisition-frontend.imgix.net/serverless/images/categoryPage/hero/logo-design/04-artsigma.jpg" height="100px" width="100px">
+            Login Page
+         </div>
+         <form action="#">
+            <div class="field">
+               <input type="text" required>
+               <label>Email Address</label>
+            </div>
+            <div class="field">
+               <input type="password" required>
+               <label>Password</label>
+            </div>
+            <div class="content">
+               <div class="checkbox">
+                  <input type="checkbox" id="remember-me">
+                  <label for="remember-me">Remember me</label>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Forgot password?</a>
+               </div>
+            </div>
+            <div class="field">
+               <input type="submit" value="Login">
+            </div>
+            <div class="signup-link">
+               Not a member? <a href="signup.html">Signup now</a>
+            </div>
+
+           <div class="text-center">
+             Sign in with <a href="#">
+         <button type="button" class="btn btn-danger btn-circle btn-sm"><i class="fa fa-google"></i></button></a>
+         </div>
+         </form>
+      </div>
+
+
+
+
+</body>
+</html>
